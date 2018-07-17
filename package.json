@@ -1,0 +1,13 @@
+{
+  "name": "redis-message-queue",
+  "author": "xugaoyang <i@xugaoyang.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "nodemailer": "^4.1.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "pm2": "2.5.0",
+    "redis": "2.7.1",
+    "redis-smq": "1.0.20"
+  }
+}

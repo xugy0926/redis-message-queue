@@ -1,0 +1,17 @@
+apps:
+  - script: 'consumer.js'
+    name: 'consumer'
+    instances: 1
+    exec_mode: cluster
+    cwd: './'
+  - script: 'producer.js'
+    name: 'producer'
+    instances: 1
+    exec-mode: cluster
+    cwd: './'
+  - script: 'monitor.js'
+    name: 'Monitor'
+    instances: 1
+    exec_mode: cluster
+    cwd: './'
+    
